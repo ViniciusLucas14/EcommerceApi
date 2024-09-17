@@ -4,7 +4,7 @@
   "identificador": "guid",
   "dataVenda": "datetime",
   "cliente": {
-    "clienteId": "string",
+    "clienteId": "guid",
     "nome": "string",
     "cpf": "string",
     "categoria": "string"
