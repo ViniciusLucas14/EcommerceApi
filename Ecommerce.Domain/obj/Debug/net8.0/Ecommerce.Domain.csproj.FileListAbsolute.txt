@@ -1,0 +1,15 @@
+C:\repositorio\Ecommerce\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Domain.deps.json
+C:\repositorio\Ecommerce\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Domain.dll
+C:\repositorio\Ecommerce\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Domain.pdb
+C:\repositorio\Ecommerce\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Data.dll
+C:\repositorio\Ecommerce\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Data.pdb
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.csproj.AssemblyReference.cache
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.AssemblyInfoInputs.cache
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.AssemblyInfo.cs
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.csproj.CoreCompileInputs.cache
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerc.9B51F420.Up2Date
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.dll
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\refint\Ecommerce.Domain.dll
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.pdb
+C:\repositorio\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\ref\Ecommerce.Domain.dll
