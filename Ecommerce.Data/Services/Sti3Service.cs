@@ -20,7 +20,7 @@ namespace Ecommerce.Data.Services
             var httpContent = new StringContent(requestData, Encoding.UTF8, "application/json");
             var httpClient = _httpClientFactory.CreateClient("sti3");
             httpClient.DefaultRequestHeaders.Add("email", "vlucassouza@gmail.com");
-            var httpResponse = await httpClient.PostAsync("https://sti3-faturamento.azurewebsites.net/api/vendass", httpContent);
+            var httpResponse = await httpClient.PostAsync("https://sti3-faturamento.azurewebsites.net/api/vendas", httpContent);
 
             if (httpResponse.Content != null)
             {
