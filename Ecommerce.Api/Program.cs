@@ -6,16 +6,17 @@ using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
+Ecommerce.Data.Startup.ConfigureService(builder.Services, builder.Configuration);
 
 builder.Services.AddControllers().AddJsonOptions(opt =>
 {
     opt.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
 });
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<EcommerceDbContext>(options =>
 {
     string conn = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -23,6 +24,7 @@ builder.Services.AddDbContext<EcommerceDbContext>(options =>
 });
 builder.Services.AddTransient<OrderService>();
 builder.Services.AddTransient<Sti3Service>();
+
 builder.Services.AddHttpClient();
 builder.Services.AddApplication();
 var app = builder.Build();

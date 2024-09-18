@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repositorio\\Ecommerce\\Ecommerce.Data\\Ecommerce.Data.csproj": {}
+    "C:\\repositorio\\EcommerceApi\\Ecommerce.Data\\Ecommerce.Data.csproj": {}
   },
   "projects": {
-    "C:\\repositorio\\Ecommerce\\Ecommerce.Data\\Ecommerce.Data.csproj": {
+    "C:\\repositorio\\EcommerceApi\\Ecommerce.Data\\Ecommerce.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repositorio\\Ecommerce\\Ecommerce.Data\\Ecommerce.Data.csproj",
+        "projectUniqueName": "C:\\repositorio\\EcommerceApi\\Ecommerce.Data\\Ecommerce.Data.csproj",
         "projectName": "Ecommerce.Data",
-        "projectPath": "C:\\repositorio\\Ecommerce\\Ecommerce.Data\\Ecommerce.Data.csproj",
+        "projectPath": "C:\\repositorio\\EcommerceApi\\Ecommerce.Data\\Ecommerce.Data.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "C:\\repositorio\\Ecommerce\\Ecommerce.Data\\obj\\",
+        "outputPath": "C:\\repositorio\\EcommerceApi\\Ecommerce.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,6 +64,10 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http.Resilience": {
+              "target": "Package",
+              "version": "[8.9.1, )"
             },
             "Npgsql": {
               "target": "Package",
